@@ -1,0 +1,28 @@
+/* basic elements: html, h1, a, p, button, ... */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 81px auto /* 48px */; /* header & footer fixed */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: var(--);
+}
+
+/* <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+ */
