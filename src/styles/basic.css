@@ -1,4 +1,4 @@
-/* basic elements: html, h1, a, p, button, ... */
+/* basic elements: html, body, h1, ... */
 
 * {
   box-sizing: border-box;
@@ -9,59 +9,13 @@ html {
 }
 
 body {
-  display: grid;
-  grid-template-rows: 81px auto /* 48px */; /* header & footer fixed */
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
   padding: 0;
   margin: 0;
-  background-color: var(--);
+  background-color: var(--white);
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: var(--);
+  font-size: 112.5%;
+  color: var(--midblue);
 }
 
 /* <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
  */
-
-/* ================== types ===================== */
-
-h1 {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: center;
-  color: var(--darkblue);
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 16px;
-  text-align: center;
-  color: var(--darkblue);
-}
-
-h3 {
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: var(--midblue);
-}
-
-h4 {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-  color: var(--darkblue);
-}
-
-h5 {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  color: var(--midblue);
-}
