@@ -1,0 +1,10 @@
+@import './colors.css';
+@import './basics.css';
+@import './utility.css';
+
+@import './components/students.css';
+@import './components/header.css';
+@import './components/journal-card.css';
+@import './components/navigation.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
