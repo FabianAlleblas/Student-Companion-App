@@ -36,3 +36,11 @@ h1 {
   text-align: center;
   color: var(--darkblue);
 }
+
+h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: var(--darkblue);
+}
