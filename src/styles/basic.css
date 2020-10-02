@@ -26,3 +26,13 @@ body {
 
 /* <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
  */
+
+/* ================== types ===================== */
+
+h1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--darkblue);
+}
