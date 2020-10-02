@@ -44,3 +44,10 @@ h2 {
   text-align: center;
   color: var(--darkblue);
 }
+
+h3 {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: var(--midblue);
+}
