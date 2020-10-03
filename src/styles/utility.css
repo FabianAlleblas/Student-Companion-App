@@ -6,4 +6,10 @@
   align-items: center;
   display: flex;
   justify-content: center;
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
 }
