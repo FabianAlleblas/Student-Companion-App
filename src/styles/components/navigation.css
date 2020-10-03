@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+  box-shadow: 0 2px 11px var(--blue-shadow);
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+.navigation__link {
+  filter: opacity(50%);
+}
+
+.navigation__link:hover,
+.navigation__link--active {
+  filter: opacity(100%);
+}
+
+.navigation__icon {
+  height: 20px;
+}
