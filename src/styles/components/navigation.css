@@ -1,14 +1,12 @@
 .navigation {
   display: flex;
-  width: 100%;
-  padding: 0 10px;
+  /*width: 100%;*/
+  /*padding: 0 10px;*/
   height: 44px;
   align-items: center;
   justify-content: space-around;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  background: white; /* hier oder besser in der utility class? */
+  background: white;
+  box-shadow: 0 2px 11px 0 var(--blue-shadow);
 }
 
 .navigation__link {
