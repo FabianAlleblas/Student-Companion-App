@@ -1,12 +1,12 @@
 .navigation {
   display: flex;
-  /*width: 100%;*/
-  /*padding: 0 10px;*/
   height: 44px;
   align-items: center;
   justify-content: space-around;
   background: white;
-  box-shadow: 0 2px 11px 0 var(--blue-shadow);
+  box-shadow: 0 2px 11px var(--blue-shadow);
+  border-radius: 10px;
+  padding-top: 5px;
 }
 
 .navigation__link {
@@ -19,4 +19,5 @@
 }
 
 .navigation__icon {
+  height: 20px;
 }
