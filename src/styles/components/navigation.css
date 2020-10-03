@@ -1,7 +1,23 @@
 .navigation {
+  display: flex;
+  width: 100%;
+  padding: 0 10px;
+  height: 44px;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: white; /* hier oder besser in der utility class? */
 }
 
 .navigation__link {
+  filter: opacity(50%);
+}
+
+.navigation__link:hover,
+.navigation__link--active {
+  filter: opacity(100%);
 }
 
 .navigation__icon {
