@@ -17,6 +17,10 @@ body {
   color: var(--midblue);
 }
 
+h1,h2,h3,h4,p {
+  margin:0;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
