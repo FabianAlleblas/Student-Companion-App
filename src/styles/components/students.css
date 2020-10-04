@@ -9,6 +9,7 @@
   height: 20px;
   top: calc(50% - 10px);
   left: calc(50% - 10px);
+  position: absolute;
 }
 
 .students__list > li:not(:first-child) {
