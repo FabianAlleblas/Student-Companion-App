@@ -1,9 +1,9 @@
 .graph__heading,
-.energy-level__heading {
+.energy__heading {
+  color: var(--darkblue);
   font-size: 14px;
   font-weight: 600;
-  color: var(--darkblue);
-  margin: 30px 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .graph__image {
@@ -17,36 +17,36 @@
 }
 
 .graph__tag-item1 {
+  background-color: var(--darkblue);
+  border-radius: 3px;
+  color: var(--white);
   font-size: 12px;
   font-weight: 600;
   line-height: 1.5;
-  background-color: var(--darkblue);
-  color: #fff;
-  padding: 0 8px;
-  border-radius: 3px;
   margin-right: 10px;
+  padding: 0 8px;
 }
 
 .graph__tag-item2 {
+  background-color: var(--ultralightorange);
+  border-radius: 3px;
+  color: var(--darkorange);
   font-size: 12px;
   font-weight: 600;
   line-height: 1.5;
-  background-color: var(--ultralightorange);
-  color: var(--darkorange);
   padding: 0 8px;
-  border-radius: 3px;
 }
 
-.energy-level__rating-item {
-  width: 100%;
-  text-align: center;
+.energy__rating-item {
+  background-color: var(--darkorange);
+  border-radius: 5px;
+  color: var(--white);
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
-  border-radius: 5px;
   padding: 12px 0;
-  margin-bottom: 10px;
-  background-color: var(--darkorange);
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
 .mid1 {
@@ -63,10 +63,10 @@
   color: var(--darkorange);
 }
 
-.energy-level__rating:after {
+.energy__rating-item:after {
   content: '';
   display: block;
-  height: 64px;
+  height: 80px;
   left: 0;
   position: absolute;
   top: 100%;
