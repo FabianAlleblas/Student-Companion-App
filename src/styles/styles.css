@@ -8,4 +8,6 @@
 @import './components/header.css';
 @import './components/journal-card.css';
 @import './components/navigation.css';
+@import './components/journal.css';
+@import './components/button.css';
 @import './components/energy.css';
