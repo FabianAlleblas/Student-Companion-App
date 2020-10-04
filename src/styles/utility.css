@@ -22,3 +22,7 @@
   display: grid;
   grid-gap: 30px;
 }
+
+.inactive { 
+  filter: opacity(20%);
+}
