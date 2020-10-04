@@ -10,15 +10,12 @@
   padding-top: 5px;
 }
 
-.navigation__link {
+.navigation__icon {
+  height: 20px;
   filter: opacity(50%);
 }
 
-.navigation__link:hover,
-.navigation__link--active {
+.navigation__icon:hover,
+.navigation__icon--active {
   filter: opacity(100%);
-}
-
-.navigation__icon {
-  height: 20px;
 }
