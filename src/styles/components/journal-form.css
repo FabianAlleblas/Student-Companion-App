@@ -37,3 +37,11 @@
   color: var(--midblue);
   margin: 10px 0 20px 0;
 }
+
+.journal-form__button-arrangement {
+  margin-top: 10px;
+  margin-bottom: 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
