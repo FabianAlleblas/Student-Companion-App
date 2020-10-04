@@ -1,0 +1,35 @@
+/* deashbord, energy, journal, journa-form*/
+
+.header__background {
+    padding: 20px 0;
+    height: 60px;
+    background-size: cover;
+    background-image: url(../../img/background_shape_1-line.svg);
+}
+
+.header__background-broad {
+    padding: 20px 0;
+    height: 80px;
+    text-align: center;
+    background-size: cover;
+    background-image: url(../../img/background_shape_2-lines.svg);
+}
+
+.header__heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--darkblue);
+    font-size: 16px;
+    line-height: 1.125;
+    font-weight: 700;
+    
+}
+/* code buddys,  teams*/
+
+.header__subheading {
+    text-align: center;
+    color: var(--midblue);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
