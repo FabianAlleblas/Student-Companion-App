@@ -57,3 +57,7 @@
   top: 100%;
   width: 100%;
 }
+
+.journal-card__sub-heading.dashboard {
+  margin-top: 0;
+}
