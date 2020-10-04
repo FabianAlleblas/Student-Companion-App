@@ -14,10 +14,10 @@
   background-color: white;
   box-shadow: none;
   color: var(--darkblue);
-  width: auto;
+  width: 100%;
 }
 
 .orange {
   box-shadow: none;
-  width: auto;
+  width: 100%;
 }
