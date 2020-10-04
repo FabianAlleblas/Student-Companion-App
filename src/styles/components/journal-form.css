@@ -41,9 +41,7 @@
 .journal-form__button-arrangement {
   margin-top: 10px;
   margin-bottom: 55px;
-  /*   width: 100%;
- */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 11px;
+  grid-gap: 10px;
 }
