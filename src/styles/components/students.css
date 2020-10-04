@@ -2,7 +2,6 @@
   border: 1px solid var(--lightblue);
   border-radius: 6px;
   position: relative;
-  margin-bottom: 30px;
 }
 
 .students__pairing::after {
@@ -11,10 +10,6 @@
   position: absolute;
   top: calc(50% - 10px);
   left: calc(50% - 10px);
-}
-
-.students__pairing {
-  margin-bottom: 20px;
 }
 
 .students__list > li:not(:first-child) {
