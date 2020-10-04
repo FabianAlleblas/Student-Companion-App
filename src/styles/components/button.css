@@ -1,23 +1,23 @@
 .button {
   background-color: var(--darkorange);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 10px var(--orange-shadow);
+  color: #fff;
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
   padding: 12px 0;
   width: 200px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 4px 10px var(--orange-shadow);
 }
 
 .plain {
-  box-shadow: none;
-  width: auto;
   background-color: white;
+  box-shadow: none;
   color: var(--darkblue);
+  width: auto;
 }
 
 .orange {
-  width: auto;
   box-shadow: none;
+  width: auto;
 }

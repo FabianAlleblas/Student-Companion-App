@@ -1,15 +1,22 @@
+.students__heading {
+  color: var(--darkblue);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
 .students__list {
-  border: 1px solid var(--lightblue);
   border-radius: 6px;
+  border: 1px solid var(--lightblue);
   position: relative;
 }
 
 .students__pairing::after {
   content: url(../../img/Plus.svg);
   height: 20px;
+  left: calc(50% - 10px);
   position: absolute;
   top: calc(50% - 10px);
-  left: calc(50% - 10px);
 }
 
 .students__list > li:not(:first-child) {
@@ -17,10 +24,10 @@
 }
 
 .students__list > li {
+  font-size: 16px;
+  font-weight: 600;
   padding: 18px 0;
   text-align: center;
-  font-weight: 600;
-  font-size: 16px;
 }
 
 .students__list > *:last-child:after {
@@ -31,11 +38,4 @@
   position: absolute;
   top: 100%;
   width: 100%;
-}
-
-.students__heading {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--darkblue);
-  margin: 0 0 10px 0;
 }

@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+.grid-10 {
+  display: grid;
+  grid-gap: 10px;
+}
+
 .grid-20 {
   display: grid;
   grid-gap: 20px;
