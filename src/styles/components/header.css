@@ -1,9 +1,13 @@
 header {
-  background-image: url(../../img/background_shape_1-line.svg);
-  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 60px;
-  padding: 20px 0;
-  text-align: center;
+  background-image: url(../../img/background_shape_1-line.svg);
+  color: var(--darkblue);
+  display: grid;
+  place-items: center;
 }
 
 .header__background-broad {
@@ -12,7 +16,6 @@ header {
 }
 
 .header__heading {
-  color: var(--darkblue);
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -23,4 +26,9 @@ header {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.scrolling {
+  padding-top: 90px;
+  overflow-y: auto;
 }
