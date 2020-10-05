@@ -8,6 +8,7 @@ header {
   color: var(--darkblue);
   display: grid;
   place-items: center;
+  z-index: 100;
 }
 
 .header__background-broad {
@@ -30,5 +31,6 @@ header {
 
 .scrolling {
   padding-top: 90px;
+  height: 100vh;
   overflow-y: auto;
 }
