@@ -12,10 +12,10 @@
 
 .navigation__icon {
   height: 20px;
-  filter: opacity(50%);
+  color: var(--midblue);
 }
 
 .navigation__icon:hover,
 .navigation__icon--active {
-  filter: opacity(100%);
+  color: var(--darkblue);
 }
