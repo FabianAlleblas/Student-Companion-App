@@ -1,18 +1,20 @@
-header {
+.main-header {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
+  height: 80px;
   background-image: url(../../img/background_shape_1-line.svg);
+  background-size: cover;
   color: var(--darkblue);
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   z-index: 100;
 }
 
-.header__background-broad {
-  background-image: url(../../img/background_shape_2-lines.svg);
+.header-80 {
   height: 80px;
 }
 
