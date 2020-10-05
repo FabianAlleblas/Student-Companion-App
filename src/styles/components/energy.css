@@ -3,17 +3,11 @@
   color: var(--darkblue);
   font-size: 14px;
   font-weight: 600;
-  margin: 0 0 10px 0;
-}
-
-.graph__image {
-  width: 100%;
 }
 
 .graph__tag {
   display: flex;
   justify-content: flex-end;
-  margin-top: 10px;
 }
 
 .graph__tag-item1 {
@@ -23,7 +17,6 @@
   font-size: 12px;
   font-weight: 600;
   line-height: 1.5;
-  margin-right: 10px;
   padding: 0 8px;
 }
 
@@ -46,9 +39,7 @@
   padding: 12px 0;
   position: relative;
   text-align: center;
-  width: 100%;
 }
-
 .mid1 {
   background-color: var(--midorange);
 }

@@ -1,7 +1,5 @@
 .journal-card {
   border-radius: 6px;
-  box-shadow: 0 2px 11px var(--blue-shadow);
-  padding: 20px;
   position: relative;
 }
 
@@ -21,10 +19,6 @@
 
 .journal-card__rating {
   display: flex;
-}
-
-.journal-card__sub-heading.dashboard {
-  margin-top: 0;
 }
 
 .journal-card__rating > li {

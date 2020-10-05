@@ -2,7 +2,6 @@
   color: var(--darkblue);
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 30px;
   text-transform: uppercase;
 }
 
@@ -10,19 +9,16 @@
   color: var(--darkblue);
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 10px;
 }
 
 .journal-form__rating {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 24px;
 }
 
 .journal-form__comprehension {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 
 .journal-form__input {
@@ -32,16 +28,20 @@
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  margin: 10px 0 20px 0;
   padding: 20px;
   resize: none;
-  width: 100%;
 }
 
-.journal-form__button-arrangement {
-  display: grid;
-  grid-gap: 10px;
+.journal-form__button-wrapper {
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 55px;
-  margin-top: 10px;
+}
+
+.journal-form:after {
+  content: '';
+  display: block;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
 }
