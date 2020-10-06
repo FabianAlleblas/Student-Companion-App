@@ -1,12 +1,9 @@
 .main-header {
-  align-items: center;
   background-image: url(../../img/background_shape_1-line.svg);
   background-size: cover;
   color: var(--darkblue);
-  display: flex;
   flex-direction: column;
   height: 60px;
-  justify-content: center;
   left: 0;
   position: absolute;
   right: 0;
