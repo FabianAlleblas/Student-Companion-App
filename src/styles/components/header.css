@@ -1,22 +1,22 @@
 .main-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 60px;
+  align-items: center;
   background-image: url(../../img/background_shape_1-line.svg);
   background-size: cover;
   color: var(--darkblue);
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  height: 60px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
   z-index: 100;
 }
 
 .header-80 {
-  height: 80px;
   background-image: url(../../img/background_shape_2-lines.svg);
+  height: 80px;
 }
 
 .header__heading {
@@ -30,10 +30,4 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
-}
-
-.scrolling {
-  padding-top: 90px;
-  height: 100vh;
-  overflow-y: auto;
 }
