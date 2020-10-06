@@ -1,16 +1,13 @@
 .main-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 60px;
   background-image: url(../../img/background_shape_1-line.svg);
   background-size: cover;
   color: var(--darkblue);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
   z-index: 100;
 }
 
