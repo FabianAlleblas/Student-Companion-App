@@ -19,10 +19,20 @@
   grid-gap: 30px;
 }
 
-.w-100 {
-  width: 100%;
-}
-
 .inactive {
   filter: opacity(20%);
+}
+
+.main-scrolling {
+  height: 100vh;
+  overflow-y: auto;
+  padding-top: 90px;
+}
+
+.scrolling-80 {
+  padding-top: 110px;
+}
+
+.w-100 {
+  width: 100%;
 }
