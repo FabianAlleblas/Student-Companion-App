@@ -3,6 +3,8 @@
 @import './color.css';
 @import './basic.css';
 @import './utility.css';
+@import './spacing.css';
+@import './shadows.css';
 
 @import './components/students.css';
 @import './components/header.css';

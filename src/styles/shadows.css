@@ -1,0 +1,7 @@
+.shadow-orange {
+  box-shadow: 0 4px 10px var(--orange-shadow);
+}
+
+.shadow-blue {
+  box-shadow: 0 2px 11px var(--blue-shadow);
+}
