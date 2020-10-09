@@ -14,14 +14,17 @@
   padding: 0;
   border: none;
   background: none;
+  color: var(--midblue);
 }
 
 .navigation__icon {
   height: 20px;
-  color: var(--midblue);
+}
+.navigation__icon:hover {
+  cursor: pointer;
 }
 
 .navigation__icon:hover,
-.navigation__icon--active {
+.navigation__link--active {
   color: var(--darkblue);
 }
