@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <header class="main-header center">
-      <h1 class="header__heading">Dashboard</h1>
+    <header data-js="header" class="main-header center">
+      <h1 data-js="heading" class="header__heading">Dashboard</h1>
+      <h2 data-js="subheading" class="header__subheading hidden"></h2>
     </header>
     <!-- Dashboard -->
     <main
@@ -185,9 +186,13 @@
       class="main-scrolling p-3 grid-20 hidden"
     >
       <section class="center">
-        <a href="journal-form.html">
-          <button class="button btn-200 shadow-orange">Rate Today ⭑</button></a
+        <button
+          data-name="journal-form"
+          data-js="journal-form-btn"
+          class="button btn-200 shadow-orange"
         >
+          Rate Today ⭑
+        </button>
       </section>
       <section class="journal-card shadow-blue p-2">
         <h3 class="journal-card__heading">Yesterday</h3>
@@ -358,7 +363,11 @@
 
     <footer>
       <nav class="navigation">
-        <button class="navigation__link w-100">
+        <button
+          data-name="dashboard"
+          data-js="nav"
+          class="navigation__link w-100"
+        >
           <svg
             class="navigation__icon navigation__icon--active"
             fill="currentcolor"
@@ -372,7 +381,7 @@
             ></path>
           </svg>
         </button>
-        <button class="navigation__link w-100">
+        <button data-name="buddy" data-js="nav" class="navigation__link w-100">
           <svg
             class="navigation__icon"
             fill="currentcolor"
@@ -386,7 +395,7 @@
             ></path>
           </svg>
         </button>
-        <button class="navigation__link w-100">
+        <button data-name="teams" data-js="nav" class="navigation__link w-100">
           <svg
             class="navigation__icon"
             fill="currentcolor"
@@ -400,7 +409,7 @@
             ></path>
           </svg>
         </button>
-        <button class="navigation__link w-100">
+        <button data-name="energy" data-js="nav" class="navigation__link w-100">
           <svg
             class="navigation__icon"
             fill="currentcolor"
@@ -416,7 +425,11 @@
             />
           </svg>
         </button>
-        <button class="navigation__link w-100">
+        <button
+          data-name="journal"
+          data-js="nav"
+          class="navigation__link w-100"
+        >
           <svg
             class="navigation__icon"
             fill="currentcolor"
