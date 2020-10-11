@@ -10,12 +10,21 @@
   padding-top: 5px;
 }
 
-.navigation__icon {
-  height: 20px;
+.navigation__link {
+  padding: 0;
+  border: none;
+  background: none;
   color: var(--midblue);
 }
 
+.navigation__icon {
+  height: 20px;
+}
+.navigation__icon:hover {
+  cursor: pointer;
+}
+
 .navigation__icon:hover,
-.navigation__icon--active {
+.navigation__link--active {
   color: var(--darkblue);
 }
